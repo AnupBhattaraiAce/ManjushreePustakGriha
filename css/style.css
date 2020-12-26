@@ -1,5 +1,4 @@
-html,
-body {
+
   margin: 0;
   padding: 0;
   width: 100%;
@@ -31,6 +30,12 @@ body {
   width: 100%;
   padding-bottom: 100px;
   text-shadow: 0 0 300px #000;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
 }
 .content .btn {
   border-radius: 9px;
